@@ -103,7 +103,7 @@ const Resume = () => {
       ]
     }
   ];
-  
+
 
   return (
     <section id="resume" className="py-20 bg-accent/50">
@@ -128,7 +128,7 @@ const Resume = () => {
               <h3 className="text-2xl font-bold mb-4 text-foreground">Summary</h3>
               <h4 className="text-xl font-semibold mb-4 text-primary">Bikash Mainali</h4>
               <p className="text-muted-foreground leading-relaxed">
-              Innovative and deadline-driven Software Engineer with 8+ years of experience designing and developing web and enterprise applications from initial concept to final deployment.
+                Innovative and deadline-driven Software Engineer with 8+ years of experience designing and developing web and enterprise applications from initial concept to final deployment.
               </p>
             </div>
           </div>
@@ -139,7 +139,7 @@ const Resume = () => {
               <GraduationCap className="w-8 h-8 text-primary" />
               <h3 className="text-3xl font-bold text-foreground">Education</h3>
             </div>
-            
+
             <div className="grid md:grid-cols-2 gap-6">
               {education.map((edu, index) => (
                 <div key={index} className="bg-background rounded-xl p-6 shadow-lg border border-border hover:shadow-xl transition-shadow duration-300">
@@ -158,7 +158,7 @@ const Resume = () => {
               <Briefcase className="w-8 h-8 text-primary" />
               <h3 className="text-3xl font-bold text-foreground">Professional Experience</h3>
             </div>
-            
+
             <div className="space-y-6">
               {experiences.map((exp, index) => (
                 <div key={index} className="bg-background rounded-xl p-6 shadow-lg border border-border hover:shadow-xl transition-shadow duration-300">

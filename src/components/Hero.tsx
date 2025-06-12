@@ -69,8 +69,8 @@ const Hero = () => {
               }}
             >
               {i % 3 === 0 ? <Code className="w-6 h-6 text-blue-600" /> :
-               i % 3 === 1 ? <Zap className="w-5 h-5 text-green-600" /> :
-               <Star className="w-4 h-4 text-emerald-600" />}
+                i % 3 === 1 ? <Zap className="w-5 h-5 text-green-600" /> :
+                  <Star className="w-4 h-4 text-emerald-600" />}
             </div>
           ))}
         </div>
@@ -82,11 +82,11 @@ const Hero = () => {
           <div className="relative transform perspective-1000">
             {/* <div className="absolute top-4 left-4 w-96 h-96 rounded-full bg-gray-200 shadow-inner blur-sm -z-10"></div> */}
             {/* <div className="rounded-full shadow-xl transition-transform duration-500 hover:rotate-x-3 hover:rotate-y-3 hover:scale-105 bg-[linear-gradient(90deg,rgba(151,183,207,1)_34%,rgba(100,174,128,1)_100%)]"> */}
-              <img
-                src="/img.png"
-                alt="Bikash Mainali"
-                className="w-96 h-96 object-cover object-center rounded-full border"
-              />
+            <img
+              src="/img.png"
+              alt="Bikash Mainali"
+              className="w-96 h-96 object-cover object-center rounded-full border"
+            />
             {/* </div> */}
           </div>
         </div>
@@ -108,7 +108,7 @@ const Hero = () => {
           </h2>
 
           <p className="text-slate-600 text-lg sm:text-xl leading-relaxed">
-          Experienced Full Stack Software Engineer with over 8 years of expertise in Java, JavaScript, TypeScript and enterprise application development across banking, healthcare, advertisement, and e-commerce domains.
+            Experienced Full Stack Software Engineer with over 8 years of expertise in Java, JavaScript, TypeScript and enterprise application development across banking, healthcare, advertisement, and e-commerce domains.
           </p>
 
           <div className="flex flex-col sm:flex-row gap-4 mt-6 justify-center md:justify-start">

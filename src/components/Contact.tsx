@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { MapPin, Mail, Phone, Send, Loader, Sparkles} from 'lucide-react';
+import { MapPin, Mail, Phone, Send, Loader, Sparkles } from 'lucide-react';
 import { toast } from 'sonner';
 
 const Contact = () => {
@@ -58,8 +58,8 @@ const Contact = () => {
       {/* Background Effects */}
       <div className="absolute inset-0">
         <div className="absolute top-0 right-0 w-96 h-96 bg-blue-500 rounded-full mix-blend-multiply filter blur-3xl opacity-20 animate-pulse"></div>
-        <div className="absolute bottom-0 left-0 w-96 h-96 bg-purple-500 rounded-full mix-blend-multiply filter blur-3xl opacity-20 animate-pulse" style={{animationDelay: '3s'}}></div>
-        <div className="absolute top-1/2 right-1/3 w-96 h-96 bg-green-500 rounded-full mix-blend-multiply filter blur-3xl opacity-20 animate-pulse" style={{animationDelay: '1.5s'}}></div>
+        <div className="absolute bottom-0 left-0 w-96 h-96 bg-purple-500 rounded-full mix-blend-multiply filter blur-3xl opacity-20 animate-pulse" style={{ animationDelay: '3s' }}></div>
+        <div className="absolute top-1/2 right-1/3 w-96 h-96 bg-green-500 rounded-full mix-blend-multiply filter blur-3xl opacity-20 animate-pulse" style={{ animationDelay: '1.5s' }}></div>
       </div>
 
       <div className="container mx-auto px-4 relative z-10">
@@ -80,10 +80,10 @@ const Contact = () => {
           {contactInfo.map((info, index) => {
             const Icon = info.icon;
             return (
-              <div 
-                key={index} 
+              <div
+                key={index}
                 className="group relative"
-                style={{animationDelay: info.delay}}
+                style={{ animationDelay: info.delay }}
               >
                 <div className="absolute -inset-2 bg-gradient-to-r from-blue-500 via-purple-500 to-green-500 rounded-2xl blur opacity-20 group-hover:opacity-40 transition-opacity duration-300"></div>
                 <div className="relative bg-slate-800 rounded-2xl p-8 text-center border border-slate-700 group-hover:border-purple-500 transition-all duration-300 transform group-hover:scale-105">
@@ -152,7 +152,7 @@ const Contact = () => {
                   />
                 </div>
               </div>
-              
+
               <div className="mb-8 space-y-2">
                 <label htmlFor="message" className="block text-sm font-medium text-blue-200">
                   Message
@@ -168,7 +168,7 @@ const Contact = () => {
                   placeholder="Tell me about your project..."
                 />
               </div>
-              
+
               <button
                 type="submit"
                 disabled={isSubmitting}
